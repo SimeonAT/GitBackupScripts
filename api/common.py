@@ -21,7 +21,7 @@ def add_module(module_name):
   return
 
 """
-  Logs in as a spciefied user into
+  Logs in as a specified user into
   the Gitea server.
 """
 def login():
