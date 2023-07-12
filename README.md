@@ -3,7 +3,7 @@
 ## Introduction
 
 This repository contains my Python scripts for backing up
-and restoring data on my self-hosted Gitea server.
+and restoring the Git repositories hosted on my self-hosted Gitea server.
 
 These scripts can be used to back up repositories in any self-hosted
 Gitea server.
