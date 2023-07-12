@@ -71,7 +71,7 @@ That way, you can:
 
 1. Place a few small sized repositories,
 
-2. Set the [testing flag](eonAT/GitBackupScripts/blob/main/scripts/repos.py#L5) to true, and
+2. Set the [testing flag](SimeonAT/GitBackupScripts/blob/main/scripts/repos.py#L5) to true, and
 
 3. Run steps defined in **Usage** to determine if you are able to back-up and restore successfully,
 
