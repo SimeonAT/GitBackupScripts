@@ -10,7 +10,7 @@ Gitea server.
 
 ## Instructions
 
-### Usage
+### Setup
 
 1. Navigate to `/scripts/repos.py` to place mappings of your Gitea repository name with their SSH URLs in the `REPO_URL_DICT` dictionary.
 
@@ -26,3 +26,6 @@ Gitea server.
    Gitea server.
    The `GITEA_ACCESS_TOKEN` will contain your Gitea API token. You can find more information on how to obtain the API token in the [Gitea API Documentation](https://docs.gitea.com/development/api-usage#generating-and-listing-api-tokens).
 
+3. Run `make install` to install the dependencies.
+
+## Usage
