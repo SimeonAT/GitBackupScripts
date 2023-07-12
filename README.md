@@ -28,4 +28,33 @@ Gitea server.
 
 3. Run `make install` to install the dependencies.
 
-## Usage
+### Usage
+
+#### Backing up
+
+1. Run `make backup` to backup the Gitea repositiories associated
+   with user identified by `GITEA_USERNAME`, as set in `.env`.
+   Depending on how large the repositories are, the script may
+   take quite some time to complete. When the script is finished,
+   it will output a `/backup` directory in the root directory
+   of this repository.
+
+#### Restoring
+
+These steps assume that the repositories to be backed up are in the
+created `/backup` directory.
+
+1. Run `make create` to create empty Gitea repositories, corresponding
+   to the name of each repository in `/backup`.
+
+2. Run `make restore` to upload the local Git repositories in `/backup`
+   to their associated empty repositories (which we created in `make create`).
+   Depending on how large the repositories are, the script may
+   take quite some time to complete.
+
+#### Deleting
+
+In addition, there is provided `make delete` function to delete
+the repositories, held locally in `/backup`, from the Gitea server.
+
+I made this script to delete unaccessible repositories (that I already backed up in `/backup`), before following steps laid out in the above **Restoring** section (in order to restore accessible versions of said repositories).
