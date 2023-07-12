@@ -65,13 +65,13 @@ The scripts can take quite a long time to run, which could
 delay the detection of a possible prolem until late in the backup process.
 Furhtermore, it could be the case that the values set in `.env` are outdated or do not currently work.
 
-To detect these issues, there is a [test version](https://github.com/SimeonAT/GitBackupScripts/main/scripts/repos.py#L27) of the repositories dictionary in `/script/repos.py`.
+To detect these issues, there is a [test version](https://github.com/SimeonAT/GitBackupScripts/blob/main/scripts/repos.py#L27) of the repositories dictionary in `/script/repos.py`.
 
 That way, you can:
 
 1. Place a few small sized repositories,
 
-2. Set the [testing flag](SimeonAT/GitBackupScripts/main/scripts/repos.py#L5) to true, and
+2. Set the [testing flag]([SimeonAT/GitBackupScripts/main/scripts/repos.py#L5](https://github.com/SimeonAT/GitBackupScripts/blob/main/scripts/repos.py#L5)) to true, and
 
 3. Run steps defined in **Usage** to determine if you are able to back-up and restore successfully,
 
