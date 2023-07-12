@@ -16,16 +16,11 @@ Gitea server.
 
 2. In the root directory, create a `.env` file and all the following
    contents:
+   ```
+   GITEA_USERNAME="[insert username here]"
+   GITEA_PASSWORD="[insert password here]"
+   GITEA_BASE_URL="[inert URL here]"
+   GITEA_ACCESS_TOKEN="[insert access token here]"
+   ```
+   The `GITEA_USERNAME` and `GITEA_PASSWORD` corresponds to the username and password, respectively, of the Gitea account you use in your self-hosted Gitea server.
 
-  ```
-  GITEA_USERNAME="[insert username here]"
-  GITEA_PASSWORD="[insert password here]"
-  GITEA_BASE_URL="[inert URL here]"
-  GITEA_ACCESS_TOKEN="[insert access token here]"
-  ```
-
-  The `GITEA_USERNAME` and `GITEA_PASSWORD` corresponds to the username
-  and password, respectively, of the Gitea account you use in your
-  self-hosted Gitea server.
-
-  
