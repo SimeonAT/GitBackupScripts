@@ -57,7 +57,7 @@ created `/backup` directory.
 In addition, there is a provided `make delete` function to delete
 the repositories, held locally in `/backup`, from the Gitea server.
 
-I made this script to delete unaccessible repositories (that I already backed up in `/backup`), before following steps laid out in the above **Restoring** section (in order to restore accessible versions of said repositories).
+I made this script to delete unaccessible repositories (that I already backed up in `/backup`), before following steps laid out in the above [Restoring](https://github.com/SimeonAT/GitBackupScripts#restoring) section (in order to restore accessible versions of said repositories).
 
 ### Testing
 
@@ -73,6 +73,6 @@ That way, you can:
 
 2. Set the [testing flag](https://github.com/SimeonAT/GitBackupScripts/blob/main/scripts/repos.py#L5) to true, and
 
-3. Run steps defined in **Usage** to determine if you are able to back-up and restore successfully,
+3. Run steps defined in [Usage](https://github.com/SimeonAT/GitBackupScripts#usage) to determine if you are able to back-up and restore successfully,
 
 before doing any actual backups.
