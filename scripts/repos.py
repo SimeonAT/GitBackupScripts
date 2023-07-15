@@ -17,7 +17,7 @@ def get_repos_url_dict():
   corresponding Git URL.
 """
 REPO_URL_DICT = {
-    "Insert repository name": "Insert ssh key",
+    "Insert repository name": "Insert SSH URL",
 }
 
 """
@@ -25,5 +25,5 @@ REPO_URL_DICT = {
   for testing purposes.
 """
 REPO_TEST_DICT = {
-  "Insert repository name": "Insert ssh key",
+  "Insert repository name": "Insert SSH URL",
 }
