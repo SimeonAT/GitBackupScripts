@@ -14,7 +14,7 @@ from repos import get_repos_url_dict
 def delete_repos(access_token, repos_url_dict):
   for repo_name in repos_url_dict:
     delete_url = \
-      f"{common.BASE_URL }/repos/{common.USERNAME}/{repo_name}"
+      f"{common.BASE_URL}/repos/{common.USERNAME}/{repo_name}"
 
     response = requests.delete(
        delete_url,
