@@ -18,7 +18,7 @@ Gitea server.
    ```
    GITEA_USERNAME="[insert username here]"
    GITEA_PASSWORD="[insert password here]"
-   GITEA_BASE_URL="[inert URL here]"
+   GITEA_BASE_URL="[The Gitea API URL, with the prefix 'https://']"
    GITEA_ACCESS_TOKEN="[insert access token here]"
    SSH_KEY_PATH="ssh -i [the path to the SSH key you want to use]"
    ```
