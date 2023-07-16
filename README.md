@@ -8,6 +8,8 @@ and restoring the Git repositories hosted on my self-hosted Gitea server.
 These scripts can be used to back up repositories in any self-hosted
 Gitea server.
 
+For more information about these Python scripts, feel free to take a look at my [blog post](https://simeonat.github.io/posts/2023/06/git-python-scripts/).
+
 ## Instructions
 
 ### Setup
