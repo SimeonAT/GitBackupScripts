@@ -22,7 +22,7 @@ For more information about these Python scripts, feel free to take a look at my 
    GITEA_PASSWORD="[insert password here]"
    GITEA_BASE_URL="[The Gitea API URL, with the prefix 'https://']"
    GITEA_ACCESS_TOKEN="[insert access token here]"
-   SSH_KEY_PATH="ssh -i [the path to the SSH key you want to use]"
+   SSH_KEY_PATH="[the path to the SSH key you want to use]"
    ```
    The `GITEA_USERNAME` and `GITEA_PASSWORD` corresponds to the username and password, respectively, of the Gitea account you use in your self-hosted Gitea server.
    The `GITEA_BASE_URL` is the URL of the homepage for your self-hosted
